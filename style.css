@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: blue;
+  }
+  
+  .formulario {
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+  input[type="text"],
+  button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .btnagregar {
+    height: 30px;
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 20px;
+    margin: 0 auto;
+    font-size: 12px;
+    width: 10%;
+  }
+  
+  .listado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .tarea {
+    flex: 0 0 calc(33.33% - 10px);
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .datos {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tarea h3 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+    
+    
